@@ -1,0 +1,42 @@
+.section{
+  text-align: center;
+  padding: 10px;
+}
+
+.help-center-text {
+  color: rgb(92, 92, 92);
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5rem;
+}
+
+.circle {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 50%; 
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .blue{
+    background-color: lightblue;
+  }
+
+  .green{
+    background-color: lightgreen;
+  }
+
+  .purple{
+    background-color: rgb(219, 173, 219);
+  }
+
+  .yellow{
+    background-color: rgb(228, 225, 179);
+  }
+
+  .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }

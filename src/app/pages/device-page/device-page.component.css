@@ -3,7 +3,6 @@
   flex-direction: column;
   min-height: 100vh;
   align-items: center;
-
 }
 
 /* .pad{
@@ -22,11 +21,11 @@ p {
 
 .device-text {
   color: rgb(92, 92, 92);
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 1.5rem;
 }
 
-.white-block {  
+.white-block {
   width: 20rem;
   height: 10rem;
   border: 1px solid rgb(231, 231, 231);
@@ -43,7 +42,7 @@ p {
 .blue-ring {
   width: 100px;
   height: 100px;
-  border: 1px solid #0082FC;
+  border: 1px solid #0082fc;
   border-radius: 50%;
   background-color: transparent;
   display: inline-block;
@@ -55,7 +54,7 @@ p {
 .center-icon {
   width: 25px;
   height: 25px;
-  fill: #0082FC;
+  fill: #0082fc;
 }
 
 .icon-gap {
@@ -72,8 +71,8 @@ p {
   justify-content: space-between;
   width: 100%;
 }
- 
-.small-text{
-    font-size: 10px;
-    margin: 0px;
+
+.small-text {
+  font-size: 10px;
+  margin: 0px;
 }
