@@ -76,3 +76,19 @@ p {
   font-size: 10px;
   margin: 0px;
 }
+
+@media (min-width: 768px) {
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    width: 414px;
+    height: 796px;
+    border: 1px solid rgb(201, 201, 201);
+    box-shadow: 0 4px 6px rgba(36, 36, 36, 0.1);
+    border-radius: 4rem;
+    padding: 1rem;
+  }
+}
