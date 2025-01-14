@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { DevicePageComponent } from './pages/device-page/device-page.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SettingsPageComponent } from './pages/settings-page/settings-page.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DevicePageComponent,
-    SettingsPageComponent
+    SettingsPageComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
