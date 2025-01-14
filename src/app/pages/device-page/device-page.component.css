@@ -1,68 +1,71 @@
-.section{
-    display: flex;
+.section {
+  display: flex;
   flex-direction: column;
-  min-height: 100vh; 
+  min-height: 100vh;
   align-items: center;
-  
+
 }
+
 /* .pad{
     padding: 1.5rem;
 } */
-p{
-    color: rgb(114, 114, 114); 
-}
-.flex{
-    display: flex;
-    justify-content: row;
-    align-items: center;
-    justify-content: space-between;
+p {
+  color: rgb(114, 114, 114);
 }
 
-.device-text{
-    color: rgb(158, 158, 158); 
-    font-family: 'Arial', sans-serif; 
-    font-size: 1.5rem;
+.flex {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.white-block{
-    width: 20rem;
-    height: 10rem;
-    border: 1px solid rgb(231, 231, 231);
-    box-shadow: 0 4px 6px rgba(36, 36, 36, 0.1);
-    padding: 10px; 
-    margin: 20px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+.device-text {
+  color: rgb(158, 158, 158);
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5rem;
 }
+
+.white-block {
+  width: 20rem;
+  height: 10rem;
+  border: 1px solid rgb(231, 231, 231);
+  box-shadow: 0 4px 6px rgba(36, 36, 36, 0.1);
+  padding: 10px;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
 .blue-ring {
-    width: 100px; 
-    height: 100px; 
-    border: 1px solid 	#0082FC; 
-    border-radius: 50%; 
-    background-color: transparent; 
-    display: inline-block; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
-  }
+  width: 100px;
+  height: 100px;
+  border: 1px solid #0082FC;
+  border-radius: 50%;
+  background-color: transparent;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .center-icon {
-    width: 25px;
-    height: 25px;
-    fill: #0082FC;
-  }
+.center-icon {
+  width: 25px;
+  height: 25px;
+  fill: #0082FC;
+}
 
-  .icon-gap{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
+.icon-gap {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 
-  .footer {
-    margin-top: auto; 
-    background-color: #f8f8f8; 
-    padding: 10px;
-    text-align: center;
-  }
+.footer {
+  margin-top: auto;
+  background-color: #f8f8f8;
+  padding: 10px;
+  text-align: center;
+}
