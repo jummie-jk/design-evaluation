@@ -7,13 +7,15 @@ import { DevicePageComponent } from './pages/device-page/device-page.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SettingsPageComponent } from './pages/settings-page/settings-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ConnectPageComponent } from './pages/connect-page/connect-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DevicePageComponent,
     SettingsPageComponent,
-    NavbarComponent
+    NavbarComponent,
+    ConnectPageComponent
   ],
   imports: [
     BrowserModule,
