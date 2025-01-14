@@ -68,4 +68,7 @@ p {
   background-color: #f8f8f8;
   padding: 10px;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
